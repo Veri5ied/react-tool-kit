@@ -1,5 +1,4 @@
 import "./style.scss";
-import TestImage from "../test-image.png";
 
 const CarouselCard = ({ imgUrl, quote, title, stack }) => {
   return (

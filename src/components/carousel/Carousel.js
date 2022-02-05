@@ -1,6 +1,5 @@
 import "./style.scss";
 import { Carousel } from "3d-react-carousal";
-import CarouselCard from "./carousel-card/CarouselCard";
 import CardOne from "./carousel-card/card-one/CardOne";
 import CardTwo from "./carousel-card/card-two/CardTwo";
 import CardThree from "./carousel-card/card-three/CardThree";
