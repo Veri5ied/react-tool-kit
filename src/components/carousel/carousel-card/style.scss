@@ -1,8 +1,10 @@
 .carousel__card {
-  background-color: #fff;
-  padding: 2em;
+  background: #fafafa;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
   width: 947px;
   height: auto;
+  padding: .4em;
+  margin: 0 auto;
 
   .carousel__body {
     display: flex;
@@ -20,9 +22,12 @@
         font-size: 20px;
         line-height: 34px;
         color: #bdbdbd;
+        display: flex;
+        text-align: left;
       }
 
       .profile {
+          text-align: left;
         .profile-head {
           width: 230px;
           font-style: normal;
@@ -33,12 +38,13 @@
         }
 
         .profile-title {
-          width: 462px;
+          width: 380px;
           font-style: normal;
           font-weight: normal;
           font-size: 20px;
           line-height: 28px;
           color: #969696;
+          text-align: left;
         }
       }
     }

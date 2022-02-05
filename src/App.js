@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.scss';
-import CarouselCard from './components/carousel/carousel-card/CarouselCard';
+import CarouselSlider from './components/carousel/Carousel';;
 
 function App() {
   return (
     <div className="App">
-      <CarouselCard />
+      <CarouselSlider />
     </div>
   );
 }
