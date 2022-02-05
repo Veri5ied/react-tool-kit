@@ -1,22 +1,18 @@
 import "./style.scss";
 import TestImage from "../test-image.png";
 
-const CarouselCard = ({}) => {
+const CarouselCard = ({ imgUrl, quote, title, stack }) => {
   return (
     <div className="carousel__card">
       <div className="carousel__body">
         <div className="carousel__image">
-          <img src={TestImage} alt="author__img" />
+          <img src={imgUrl} alt="author__img" />
         </div>
         <div className="carousel__content">
-          <p className="quote">
-            Start your project quickly with our fast matching system. Get
-            matched with talents that fit you perfectly within a short
-            time.Start your project quickly with our fast matching system.
-          </p>
+          <p className="quote">{quote}</p>
           <div className="profile">
-            <p className="profile-head">Timothy Agrena</p>
-            <p className="profile-title">C.E.O Leil&bey</p>
+            <p className="profile-head">{title}</p>
+            <p className="profile-title">{stack}</p>
           </div>
         </div>
       </div>
