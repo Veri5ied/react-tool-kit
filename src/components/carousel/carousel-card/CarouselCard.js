@@ -1,7 +1,7 @@
 import "./style.scss";
 import TestImage from "../test-image.png";
 
-const CarouselCard = () => {
+const CarouselCard = ({}) => {
   return (
     <div className="carousel__card">
       <div className="carousel__body">
