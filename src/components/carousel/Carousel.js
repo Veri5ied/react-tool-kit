@@ -10,7 +10,10 @@ let slides = [<CardOne />, <CardTwo />, <CardThree />, <CardFour />];
 function CarouselSlider() {
   return (
     <div className="carousel-slider">
-      <Carousel slides={slides} />
+      <Carousel
+        slides={slides}
+        arrows={false}
+      />
     </div>
   );
 }
